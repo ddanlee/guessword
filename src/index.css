@@ -19,27 +19,28 @@ th {
   background: #fff;
   width: 100%;
   height: 100%;
-  border: 1px solid #999;
+  /* border: 1px solid #999; */
 }
 
 .wholeBox .hanging {
   float: left;
   background: rgb(12, 212, 22);
-  width: 25%;
+  width: 49.5%;
   height: 50%;
   border: 1px solid #999;
-  margin-top: 10px;
-  margin-left: 15%;
+  /* margin-top: 10px; */
+  /* margin-left: 15%; */
 }
 
 .wholeBox .word {
   background: #fff;
-  width: 25%;
+  width: 49.5%;
   height: 20%;
   border: 1px solid #999;
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 20%;
+  /* display: inline-block; */
+  /* margin-top: 10px; */
+  /* margin-left: 0.5%; */
+  float: right;
 }
 
 .wholeBox .word .correct {
