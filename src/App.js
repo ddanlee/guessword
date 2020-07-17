@@ -139,8 +139,11 @@ class App extends Component {
         <div className = "word">
           <div className = "correct">
             <div className = "info">
+            @ Welcome to The "WORD GUESSING" Game @
             @ Guess the word from the "Word Bank" above based on the "length of the word" given below <br/>
             @ Press the "Random Word" button to start the game
+            @ Type in the word you guessed in the "Answer" box
+            @ You can Add or remove words from the "Word Bank" as you like
             </div>
             <div className = "square">
               {"\n"}
