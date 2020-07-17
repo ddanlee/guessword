@@ -4,7 +4,7 @@ const TableHeader = () => {
   return (
     <thead>
       <tr>
-        <th> Word</th>
+        <th>Word Bank</th>
       </tr>
     </thead>
   )

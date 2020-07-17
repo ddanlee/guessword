@@ -138,6 +138,10 @@ class App extends Component {
         </div>
         <div className = "word">
           <div className = "correct">
+            <div className = "info">
+            @ Guess the word from the "Word Bank" above based on the "length of the word" given below <br/>
+            @ Press the "Random Word" button to start the game
+            </div>
             <div className = "square">
               {"\n"}
               {this.state.randomClicked && this.state.SelectedWord.length}
