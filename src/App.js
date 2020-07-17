@@ -45,7 +45,7 @@ class App extends Component {
   handleSubmit = (word) => {
     console.log(this.state.words)
     this.state.words.some(each => each !== word) ?
-    this.setState({ words: [...this.state.words, word]}) : console.log("Duplicate!")
+    this.setState({ words: [...this.state.words, word]}) : alert("Duplicate!")
       
     }
 
@@ -129,13 +129,6 @@ class App extends Component {
 
     return (
       <div className = "wholeBox">
-        <div className = "hanging">
-        <Table wordData = {words} />
-          <button onClick = {this.RemoveAllWords}>Remove All Words</button>
-          <br/> <br/>
-          <Form handleSubmit = {this.handleSubmit} />
-          <br/>
-        </div>
         <div className = "word">
           <div className = "correct">
             <div className = "info">
@@ -149,7 +142,7 @@ class App extends Component {
               {"\n"}
               {this.state.randomClicked && this.state.SelectedWord.length}
               <br/>
-              <button style={{marginTop:20}}onClick = {() => {
+              <button onClick = {() => {
               this.handleClick();
               }}>
               Random Word
@@ -161,6 +154,15 @@ class App extends Component {
           {this.state.number === 0 ? <h1> </h1> : (this.state.SelectedWord === this.state.answers[answers.length-1].answer) ? <h1>Brilliant!</h1> : <h1>Wrong :(</h1>}
           </div>
 
+        </div>
+
+        <div className = "hanging">
+          <Table wordData = {words} />
+          <button onClick = {this.RemoveAllWords}>Remove All Words</button>
+          <br/> <br/>
+          <Form handleSubmit = {this.handleSubmit} />
+          <br/>
+
           <div className = "testTable">
             <Test testData = {answers} />
 
@@ -170,6 +172,7 @@ class App extends Component {
 
           </div>
         </div>
+
 {/* 
         <div className = "wordTable">
 

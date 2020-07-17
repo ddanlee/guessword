@@ -3,7 +3,7 @@
 
 
 body {
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'sans-serif';
 }
 /*
@@ -16,7 +16,7 @@ th {
 }
 
 h1 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -40,6 +40,12 @@ h2 {
   border: 1px solid #999;
   /* margin-top: 10px; */
   /* margin-left: 15%; */
+}
+
+.wholeBox .hanging .testTable {
+  background: yellow;
+  width: 100%;
+  display: inline-block;
 }
 
 .wholeBox .word {
@@ -66,18 +72,18 @@ h2 {
   font-weight: bold;
   line-height: 20px;
   width: 100%;
-  height: 30%;
+  height: 70%;
   text-align: center;
 }
 
 .wholeBox .word .correct .square {
   background: #fff;
   border: 1px solid #999;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 40px;
   width: 40%;
-  height: 20%;
+  height: 30%;
   margin-top: 80px;
   padding: 0;
   text-align: center;
@@ -94,11 +100,11 @@ h2 {
   text-decoration: darkred;
 }
 
-.wholeBox .word .testTable {
+/* .wholeBox .word .testTable {
   background: yellow;
   width: 100%;
   display: inline-block;
-}
+} */
 
 .wholeBox .wordTable {
   background: green;
