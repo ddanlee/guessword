@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/guessword/static/css/main.94b61dfa.chunk.css",
+    "main.js": "/guessword/static/js/main.649a929f.chunk.js",
+    "main.js.map": "/guessword/static/js/main.649a929f.chunk.js.map",
+    "runtime-main.js": "/guessword/static/js/runtime-main.f73f9537.js",
+    "runtime-main.js.map": "/guessword/static/js/runtime-main.f73f9537.js.map",
+    "static/js/2.98994b87.chunk.js": "/guessword/static/js/2.98994b87.chunk.js",
+    "static/js/2.98994b87.chunk.js.map": "/guessword/static/js/2.98994b87.chunk.js.map",
+    "index.html": "/guessword/index.html",
+    "precache-manifest.7cf1812939fd8a3ac7be8c3dd103ca51.js": "/guessword/precache-manifest.7cf1812939fd8a3ac7be8c3dd103ca51.js",
+    "service-worker.js": "/guessword/service-worker.js",
+    "static/css/main.94b61dfa.chunk.css.map": "/guessword/static/css/main.94b61dfa.chunk.css.map",
+    "static/js/2.98994b87.chunk.js.LICENSE.txt": "/guessword/static/js/2.98994b87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f73f9537.js",
+    "static/js/2.98994b87.chunk.js",
+    "static/css/main.94b61dfa.chunk.css",
+    "static/js/main.649a929f.chunk.js"
+  ]
+}
