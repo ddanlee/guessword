@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e016607d0cfcb417ec451aca79bf90cb",
+    "revision": "a5b55d9f54f9823f6f899e18bffc0ec3",
     "url": "/guessword/index.html"
   },
   {
-    "revision": "960c06fcdbb0ad0a054a",
-    "url": "/guessword/static/css/main.94b61dfa.chunk.css"
+    "revision": "a4d81614d48bff84f0ea",
+    "url": "/guessword/static/css/main.c207056c.chunk.css"
   },
   {
     "revision": "fb5a15f90f46d555738e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guessword/static/js/2.98994b87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "960c06fcdbb0ad0a054a",
-    "url": "/guessword/static/js/main.649a929f.chunk.js"
+    "revision": "a4d81614d48bff84f0ea",
+    "url": "/guessword/static/js/main.33b899a2.chunk.js"
   },
   {
     "revision": "27936f824acadbb2221f",
