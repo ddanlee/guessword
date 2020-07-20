@@ -145,7 +145,7 @@ class App extends Component {
               <button onClick = {() => {
               this.handleClick();
               }}>
-              Random Word
+              Random Word 
               </button>
             </div>
           </div>
